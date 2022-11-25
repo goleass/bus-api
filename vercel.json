@@ -3,7 +3,7 @@
   "version": 2,
   "public": true,
   "builds": [{
-    "src": "./src/server.js",
+    "src": "./src/index.js",
     "use": "@vercel/node"
   }],
   "routes": [{
