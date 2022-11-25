@@ -1,0 +1,13 @@
+{
+  "name": "bus-api",
+  "version": 2,
+  "public": true,
+  "builds": [{
+    "src": "./src/server.js",
+    "use": "@vercel/node"
+  }],
+  "routes": [{
+    "src": "/(.*)",
+    "dest": "/"
+  }]
+}
